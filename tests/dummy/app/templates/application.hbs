@@ -1,3 +1,7 @@
-<h2 id="title">Welcome to Ember</h2>
+<h2 id="title">ember-root-url</h2>
 
-{{outlet}}
+<p>You should see two copies of our example image, even if you run this
+app under a new rootURL:</p>
+
+<img src={{root-url "example.png"}} />
+<img src={{root-url "/example.png"}} />
