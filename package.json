@@ -1,17 +1,23 @@
 {
   "name": "ember-root-url",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "A template helper to keep your URLs relative to the app's rootURL",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "rootURL",
+    "root",
+    "url",
+    "helper",
+    "relative",
+    "asset"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Edward Faulkner <edward@eaf4.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/ef4/ember-root-url",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
