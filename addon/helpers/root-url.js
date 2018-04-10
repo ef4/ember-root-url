@@ -1,9 +1,10 @@
 import Helper from '@ember/component/helper';
-import { getOwner } from '@ember/application';
+import { inject as service } from '@ember/service';
 
 export default Helper.extend({
+  rootUrl: service(),
+
   compute([relativeURL]) {
-    let ENV = getOwner(this).resolveRegistration('config:environment');
-    return `${ENV.rootURL}${relativeURL.replace(/^\//,'')}`;
+    return this.get('rootUrl').build(relativeURL);
   }
 });

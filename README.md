@@ -56,6 +56,19 @@ Of course it's fine to pass any value, it doesn't need to be a literal:
 <img src={{root-url model.imageURL}} />
 ```
 
+You can also build root-relative URLs in JavaScript using `service:root-url`:
+
+```js
+export default MyComponent extends Component {
+  rootUrl: service(),
+
+  @computed
+  get helloUrl() {
+    return this.rootUrl.build('images/hello.png')
+  }
+}
+```
+
 
 Contributing
 ------------------------------------------------------------------------------
