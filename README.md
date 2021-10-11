@@ -25,8 +25,8 @@ If you want a portable way to refer to those assets, you need to construct their
 Compatibility
 ------------------------------------------------------------------------------
 
-* Ember.js v3.20 or above
-* Ember CLI v3.20 or above
+* Ember.js v3.12 or above
+* Ember CLI v3.12 or above
 * Node.js v12 or above
 
 
