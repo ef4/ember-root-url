@@ -1,6 +1,6 @@
 {
   "name": "ember-root-url",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "A template helper to keep your URLs relative to the app's rootURL",
   "keywords": [
     "ember-addon",
