@@ -1,1 +1,1 @@
-export { default, rootUrl } from 'ember-root-url/helpers/root-url';
+export { default } from 'ember-root-url/helpers/root-url';
